@@ -21,6 +21,7 @@ import {
 } from './utils';
 import ConversationHistory from './ConversationHistory';
 import ChatHistory from './ChatHistory'; // ✅ THÊM MỚI: Import ChatHistory
+import './globals.css'; // ✅ THÊM MỚI: Import CSS toàn cục
 
 const AudioCustomerLookup: React.FC = () => {
   // ✅ STATE MANAGEMENT
