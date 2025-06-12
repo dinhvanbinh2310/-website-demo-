@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { MessageCircle, X, User, Clock, ChevronDown, ChevronUp, AlertCircle, CheckCircle, Pause, ArrowRight } from 'lucide-react';
-import { Conversation, ChatMessage } from './types';
+import { MessageCircle, X, Clock, ChevronDown, ChevronUp, AlertCircle, CheckCircle, Pause } from 'lucide-react';
+import { Conversation } from './types';
 
 // ✅ Props interface
 interface ChatHistoryProps {

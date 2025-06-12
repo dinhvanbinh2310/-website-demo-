@@ -228,7 +228,7 @@ const AudioCustomerLookup: React.FC = () => {
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Không có thông tin khách hàng với {searchType === 'phone' ? 'số điện thoại' : searchType === 'email' ? 'email' : 'tên'}:
-                  <span className="font-mono bg-gray-100 px-2 py-1 rounded ml-1">"{searchValue}"</span>
+                  <span className="font-mono bg-gray-100 px-2 py-1 rounded ml-1">{searchValue}</span>
                 </p>
                 <button
                   onClick={resetSearch}
